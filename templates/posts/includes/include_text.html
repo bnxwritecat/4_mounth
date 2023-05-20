@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<p>
+    Этот текст подтягивается с помощью тега include
+</p>
+    <h1>О нас</h1>
+    <a href="{% url 'index-page' %}">
+        На главную
+    </a>
+
+    <a href="{% url 'contacts-page' %}">
+         наши Контакты
+    </a>
+{% endblock %}
