@@ -10,3 +10,4 @@ def get_about(request):
 def hello(request):
     header = {"name": "Alex"}
     return HttpResponse("hello", headers=header)
+
